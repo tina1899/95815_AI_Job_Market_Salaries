@@ -1,15 +1,5 @@
 [
   {
-    "path": ".gitattributes",
-    "bytes": 221,
-    "sha256": "5aab0e04c1224f62fea847430a4e65e1618da259e7661699d29fe00bee47a194"
-  },
-  {
-    "path": ".gitignore",
-    "bytes": 423,
-    "sha256": "7921f95d7b9eaa36b5ceb1e0e1f7d6d073c0fe79a8f5e9292e85bd047a498f23"
-  },
-  {
     "path": "CONTRIBUTION.md",
     "bytes": 1103,
     "sha256": "93fc9e93bfb6c26d25321e70788876e14f29570bef72e214292b6a757a834801"
