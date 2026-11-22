@@ -1,0 +1,36 @@
+AWS PostgreSQL query results
+
+Evidence basis: transcribed from the unchanged pgAdmin screenshots supplied by Tina Joshi.
+These are not claimed to be a raw SQL-client export. Full local PostgreSQL output is retained separately in evidence/postgresql_demo_results.txt.
+
+Database: ai_jobs_product
+Schema: m2_ai_salaries
+
+INGESTION SUMMARY
+raw_rows: 1500
+cleaned_rows: 1500
+job_skill_pairs: 9428
+removed_skill_tokens: 120
+salary_analysis_rows: 1212
+country_salary_analysis_rows: 1155
+experience_consistent_rows: 401
+row_issue_log_entries: 1649
+
+QUALITY CHECKS
+annual_salary_outside_stated_range: 288
+duplicate_job_id: 0
+exact_duplicate_rows: 0
+experience_label_years_conflict: 1099
+global_geography_not_country: 82
+missing_source_cells: 0
+repeated_skills_within_job: 119
+salary_tier_boundary_disagreement: 61
+
+BEFORE AND AFTER EXAMPLE
+job_id: AIJOB0004
+The screenshot confirms one repeated skill token was removed. Full strings below are reproduced from the delivered original and cleaned CSVs.
+original_skills: Feature Stores|Spark|ETL|Airflow|dbt|SQL|Python|Statistics|SQL|Communication
+cleaned_skills: Feature Stores|Spark|ETL|Airflow|dbt|SQL|Python|Statistics|Communication
+duplicate_skill_tokens_removed: 1
+
+No raw source rows were dropped. Conflicting source salary and experience values are retained and flagged.

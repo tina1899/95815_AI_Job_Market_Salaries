@@ -1,0 +1,217 @@
+[
+  {
+    "path": ".gitattributes",
+    "bytes": 221,
+    "sha256": "5aab0e04c1224f62fea847430a4e65e1618da259e7661699d29fe00bee47a194"
+  },
+  {
+    "path": ".gitignore",
+    "bytes": 423,
+    "sha256": "7921f95d7b9eaa36b5ceb1e0e1f7d6d073c0fe79a8f5e9292e85bd047a498f23"
+  },
+  {
+    "path": "CONTRIBUTION.md",
+    "bytes": 1103,
+    "sha256": "93fc9e93bfb6c26d25321e70788876e14f29570bef72e214292b6a757a834801"
+  },
+  {
+    "path": "DATA_SOURCE.md",
+    "bytes": 1392,
+    "sha256": "795b8618ff74e775c27d7196d51db51f49be2404300828d83602aebe1891a6b9"
+  },
+  {
+    "path": "README.md",
+    "bytes": 9688,
+    "sha256": "8a0999aedbde8915448623ec9c05bfe708b7f531c88bc797ebf28d9f19ef59fb"
+  },
+  {
+    "path": "START_HERE_PGADMIN.md",
+    "bytes": 7291,
+    "sha256": "26dc482172a16b9c76e24357722ef80ba05f2abb85d13a8070a4ab3d66e820de"
+  },
+  {
+    "path": "cleaned/ai_jobs_market_cleaned.csv",
+    "bytes": 543546,
+    "sha256": "d55dba1551f58b54d6a328e33e794908ba5045caae3f23d1118bf684ded0360b"
+  },
+  {
+    "path": "cleaned/job_skills.csv",
+    "bytes": 282675,
+    "sha256": "578f8ad88033eb9eb558d3c8de8465ac79e19de7b52b8ee614227b5e48f29b03"
+  },
+  {
+    "path": "cleaned/salary_analysis_ready.csv",
+    "bytes": 441375,
+    "sha256": "f79621f442c1b8305f8ddd7b49fb59a10c09b1ad3ea52bafdb6a352fd4a0688c"
+  },
+  {
+    "path": "evidence/aws_ingestion_verification.json",
+    "bytes": 1304,
+    "sha256": "8dd0cb13abec10d3a72dfbf06fafd8786e41597fead23cb1934735e722e0a830"
+  },
+  {
+    "path": "evidence/notebook_execution.json",
+    "bytes": 255,
+    "sha256": "fb5dfcf932e10806aac7c6f6db4d2c59a29e1cd0785813ff03ecec3b59c51003"
+  },
+  {
+    "path": "evidence/postgresql_demo_results.txt",
+    "bytes": 56254,
+    "sha256": "2cd7618f4275c52e86f1516f57c56369e76401c73e6dca3e0e446d83b7cd8276"
+  },
+  {
+    "path": "evidence/postgresql_validation.json",
+    "bytes": 2709,
+    "sha256": "cd59628011bee0635dc5dcc9c0b8930e716cd8e9eb3932aa6c651976d8b47f7b"
+  },
+  {
+    "path": "evidence/screenshots/01_ingestion_counts.png",
+    "bytes": 66686,
+    "sha256": "c41b348b14866b5de5a820b3986bc75b338559d1251e639f8cdb80f66c241032"
+  },
+  {
+    "path": "evidence/screenshots/02_quality_checks.png",
+    "bytes": 459721,
+    "sha256": "db0d5211f1218a30a6440422a191aa7be8aa0e7d4b2954d0b44433dd5d2a9269"
+  },
+  {
+    "path": "evidence/screenshots/03_skill_cleaning_example.png",
+    "bytes": 368313,
+    "sha256": "fe5dde533c209d1ff6b8c8668fcad65b8f1b26e5c32f7c56e5b880a06f57ad4a"
+  },
+  {
+    "path": "evidence/screenshots/manifest.json",
+    "bytes": 824,
+    "sha256": "acca80ff26c6612ddc3da4e9bfb978ea14e3ccf5ace1fe558d78e969ea163ea7"
+  },
+  {
+    "path": "notebooks/AI_Jobs_Salaries_Cleaning_Executed.ipynb",
+    "bytes": 47465,
+    "sha256": "3e04e0af91d3a363f050af42fc30017cc5e286a06bfa7e92f26d9048860d3bce"
+  },
+  {
+    "path": "pdf_section.md",
+    "bytes": 2985,
+    "sha256": "c107183eee9b90d95595847eb96239358b2a60c00f756872b9896e0efc458f4a"
+  },
+  {
+    "path": "quality/before_after_examples.csv",
+    "bytes": 2290,
+    "sha256": "6ebb65a1e22b03161b4aa31d5236b9b19763d58ba9dfb9e7212b43e3623a436e"
+  },
+  {
+    "path": "quality/column_profile.csv",
+    "bytes": 767,
+    "sha256": "544b9bcc0e3c887d93c47176c369e11169b0a78cf3b1d2357db411cb510f52b3"
+  },
+  {
+    "path": "quality/quality_checks.csv",
+    "bytes": 6550,
+    "sha256": "cf7c817f9977f9c86470151f6e57b8918808d5a31cde69510fefd855680b3671"
+  },
+  {
+    "path": "quality/row_issue_log.csv",
+    "bytes": 306636,
+    "sha256": "e115c394897e250bb5eafc1650b96c14a14f5b450a19e5e754cc19bbaa8f4534"
+  },
+  {
+    "path": "quality/summary.json",
+    "bytes": 1252,
+    "sha256": "a80cf6578c4b3da999944dd558f15268826dd4c146adeb7b1a960b4ecc23a312"
+  },
+  {
+    "path": "quality_log.md",
+    "bytes": 6373,
+    "sha256": "1011d0dd417f78cf933e8dc3289df6d4d5934bdb42a57b2b28c312cc21418af1"
+  },
+  {
+    "path": "query_outputs.txt",
+    "bytes": 1316,
+    "sha256": "9fa0229957459b08f7434d4a3c2fca31e377bac81d8263e9994da65b2abe022d"
+  },
+  {
+    "path": "raw/ai_jobs_market_2025_2026.csv",
+    "bytes": 383900,
+    "sha256": "6ae7bc7bf724250cd8c977f86b620128318070a23cb0b17340e58d2321f7864e"
+  },
+  {
+    "path": "raw/ai_jobs_market_2025_2026_original.zip",
+    "bytes": 62669,
+    "sha256": "4f1a5de56b829cb42df6be21bc6c5758b083ee0e01a44aa0dfee7a8a325a4cbe"
+  },
+  {
+    "path": "raw/kaggle_list_metadata.json",
+    "bytes": 459,
+    "sha256": "a8c44ecc02d2d7a650735b84427412a8c9b66f7ad1ecd917835849bcf65fe916"
+  },
+  {
+    "path": "raw/kaggle_view_metadata.json",
+    "bytes": 13469,
+    "sha256": "d8a9d3f17bf12fd54ec972db3b23ecbede96422957765bad2a451adb429f809f"
+  },
+  {
+    "path": "raw/source_manifest.json",
+    "bytes": 688,
+    "sha256": "879afc36622b64681848e33643899aa8af7f3567d489618283df7e572cb7b6ee"
+  },
+  {
+    "path": "report/Data_Dictionary.md",
+    "bytes": 4191,
+    "sha256": "62e0aa103ca95287d3845dc55e2a6292abe5e5e79d3e955886941c35b8e98b2b"
+  },
+  {
+    "path": "report/Detailed_Quality_Report.md",
+    "bytes": 6373,
+    "sha256": "1011d0dd417f78cf933e8dc3289df6d4d5934bdb42a57b2b28c312cc21418af1"
+  },
+  {
+    "path": "report/M2_Salaries_Report_Section.docx",
+    "bytes": 38864,
+    "sha256": "9b5395a61091b60b292bba76b5a315ef3f015577dd4b94df49b2c1f3aa3efa83"
+  },
+  {
+    "path": "report/M2_Salaries_Report_Section.md",
+    "bytes": 2985,
+    "sha256": "c107183eee9b90d95595847eb96239358b2a60c00f756872b9896e0efc458f4a"
+  },
+  {
+    "path": "report/M2_Salaries_Report_Section.pdf",
+    "bytes": 67237,
+    "sha256": "19f1b0f340d1a865962cde6b1c1114816f967d437eb4d42347dd1e870930e839"
+  },
+  {
+    "path": "report/Video_Narration_Guide.md",
+    "bytes": 2846,
+    "sha256": "03db3c6e209269f1facffa1097f573a183077a6e6cd2696040276b83011ba448"
+  },
+  {
+    "path": "requirements.txt",
+    "bytes": 67,
+    "sha256": "b116b6676dc8cc11560bd22d50be2582a3ee20479024e3e231ebb9e60f3d339f"
+  },
+  {
+    "path": "scripts/clean_and_profile.py",
+    "bytes": 16446,
+    "sha256": "66cc7cc70d302dc1daef532bd7fa71a7f6ba8ca3897d2e68555da037352a5651"
+  },
+  {
+    "path": "scripts/download_original.py",
+    "bytes": 1570,
+    "sha256": "ae2302dd817377397c99644dc4b324529714101d3ca32c88a836e4173bd08ecc"
+  },
+  {
+    "path": "sql/01_pgadmin_load_and_clean.sql",
+    "bytes": 531362,
+    "sha256": "d93919b934d23124ecab56bfd54301aa083098fcad7efba5e3f545e094565192"
+  },
+  {
+    "path": "sql/02_demo_and_verification_queries.sql",
+    "bytes": 2574,
+    "sha256": "3fb0537c09544a7585aba059f3b06fc633bab4bc1b570be4f6ff6894933d0007"
+  },
+  {
+    "path": "video_notes.md",
+    "bytes": 2846,
+    "sha256": "03db3c6e209269f1facffa1097f573a183077a6e6cd2696040276b83011ba448"
+  }
+]

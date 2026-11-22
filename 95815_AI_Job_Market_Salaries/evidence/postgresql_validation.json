@@ -1,0 +1,71 @@
+{
+  "validation_scope": "Actual local PostgreSQL 16.2 in standalone mode. The team database still requires the supplied pgAdmin SQL.",
+  "validated_at_utc": "2026-11-22T15:58:35.547298+00:00",
+  "postgresql_version": "PostgreSQL 16.2 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 10.2.1 20210130 (Red Hat 10.2.1-11), 64-bit",
+  "summary": {
+    "raw_rows": 1500,
+    "cleaned_rows": 1500,
+    "job_skill_pairs": 9428,
+    "removed_skill_tokens": 120,
+    "salary_analysis_rows": 1212,
+    "row_issue_log_entries": 1649,
+    "experience_consistent_rows": 401,
+    "country_salary_analysis_rows": 1155
+  },
+  "checks": [
+    {
+      "decision": "Retain source values; flag; validated annual salary is NULL; exclude from conservative salary view.",
+      "severity": "recoverable",
+      "check_name": "annual_salary_outside_stated_range",
+      "affected_count": 288
+    },
+    {
+      "decision": "Stop rather than choose an arbitrary repeated job ID.",
+      "severity": "critical",
+      "check_name": "duplicate_job_id",
+      "affected_count": 0
+    },
+    {
+      "decision": "No full duplicate records were found.",
+      "severity": "recoverable",
+      "check_name": "exact_duplicate_rows",
+      "affected_count": 0
+    },
+    {
+      "decision": "Keep both source values; flag; restrict agreement-based experience view.",
+      "severity": "recoverable",
+      "check_name": "experience_label_years_conflict",
+      "affected_count": 1099
+    },
+    {
+      "decision": "Retain Global rows; country code NULL; exclude from physical-country salary view.",
+      "severity": "recoverable",
+      "check_name": "global_geography_not_country",
+      "affected_count": 82
+    },
+    {
+      "decision": "Check every original source column. No missing source cells; no imputation performed.",
+      "severity": "recoverable",
+      "check_name": "missing_source_cells",
+      "affected_count": 0
+    },
+    {
+      "decision": "Deduplicate skill tokens within each posting; retain first spelling and order.",
+      "severity": "recoverable",
+      "check_name": "repeated_skills_within_job",
+      "affected_count": 119
+    },
+    {
+      "decision": "Retain original tier and add a derived tier with explicit non-overlapping boundaries.",
+      "severity": "recoverable",
+      "check_name": "salary_tier_boundary_disagreement",
+      "affected_count": 61
+    }
+  ],
+  "raw_roundtrip_matches_original_csv": true,
+  "all_40_cleaned_columns_match_python_outputs": true,
+  "job_skills_match_python_outputs": true,
+  "all_demo_queries_executed_without_error": true,
+  "rerun_protection_preserves_existing_tables": true,
+  "raw_csv_sha256": "6ae7bc7bf724250cd8c977f86b620128318070a23cb0b17340e58d2321f7864e"
+}

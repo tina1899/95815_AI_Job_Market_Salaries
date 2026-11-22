@@ -1,0 +1,38 @@
+{
+  "verification_basis": "User-provided screenshots of successful queries in pgAdmin; no direct connection to the user database was made by the assistant.",
+  "verified_at_utc": "2026-11-22T22:24:16.541041+00:00",
+  "rds_instance": "de-postgres",
+  "region": "us-east-2",
+  "database": "ai_jobs_product",
+  "schema": "m2_ai_salaries",
+  "summary": {
+    "raw_rows": 1500,
+    "cleaned_rows": 1500,
+    "job_skill_pairs": 9428,
+    "removed_skill_tokens": 120,
+    "salary_analysis_rows": 1212,
+    "country_salary_analysis_rows": 1155,
+    "experience_consistent_rows": 401,
+    "row_issue_log_entries": 1649
+  },
+  "quality_checks": {
+    "annual_salary_outside_stated_range": 288,
+    "duplicate_job_id": 0,
+    "exact_duplicate_rows": 0,
+    "experience_label_years_conflict": 1099,
+    "global_geography_not_country": 82,
+    "missing_source_cells": 0,
+    "repeated_skills_within_job": 119,
+    "salary_tier_boundary_disagreement": 61
+  },
+  "before_after": {
+    "job_id": "AIJOB0004",
+    "repeated_SQL_token_removed": 1
+  },
+  "evidence_library_file_ids": [
+    "libfile_35abe637d9bc81919009a4b704e8a62a",
+    "libfile_9c588996c28c8191ac953f8369973920",
+    "libfile_95d89baa3ab88191867c3a870b34768b"
+  ],
+  "teammate_database_access": "Not verified; team access must be arranged separately."
+}

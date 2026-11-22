@@ -1,0 +1,20 @@
+[
+  {
+    "file": "01_ingestion_counts.png",
+    "description": "Successful AWS ingestion and row reconciliation",
+    "origin": "Unmodified screenshot supplied by Tina Joshi from pgAdmin",
+    "sha256": "c41b348b14866b5de5a820b3986bc75b338559d1251e639f8cdb80f66c241032"
+  },
+  {
+    "file": "02_quality_checks.png",
+    "description": "Eight quality checks and actual affected counts",
+    "origin": "Unmodified screenshot supplied by Tina Joshi from pgAdmin",
+    "sha256": "db0d5211f1218a30a6440422a191aa7be8aa0e7d4b2954d0b44433dd5d2a9269"
+  },
+  {
+    "file": "03_skill_cleaning_example.png",
+    "description": "AIJOB0004 original and cleaned skill lists",
+    "origin": "Unmodified screenshot supplied by Tina Joshi from pgAdmin",
+    "sha256": "fe5dde533c209d1ff6b8c8668fcad65b8f1b26e5c32f7c56e5b880a06f57ad4a"
+  }
+]

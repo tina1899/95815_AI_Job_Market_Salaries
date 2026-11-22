@@ -1,0 +1,7 @@
+{
+  "execution_method": "Sequential in-process IPython execution",
+  "code_cells_executed": 5,
+  "errors": 0,
+  "reconciliation_assertions_passed": true,
+  "raw_sha256_after_execution": "6ae7bc7bf724250cd8c977f86b620128318070a23cb0b17340e58d2321f7864e"
+}

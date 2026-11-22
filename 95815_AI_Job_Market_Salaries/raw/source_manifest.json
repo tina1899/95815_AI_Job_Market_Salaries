@@ -1,0 +1,18 @@
+{
+  "source_url": "https://www.kaggle.com/datasets/alitaqishah/ai-jobs-market-2025-2026-salaries",
+  "download_url": "https://www.kaggle.com/api/v1/datasets/download/alitaqishah/ai-jobs-market-2025-2026-salaries?datasetVersionNumber=1",
+  "dataset_version": 1,
+  "downloaded_at_utc": "2026-11-22T15:50:41.148477+00:00",
+  "raw_files": [
+    {
+      "path": "raw/ai_jobs_market_2025_2026_original.zip",
+      "bytes": 62669,
+      "sha256": "4f1a5de56b829cb42df6be21bc6c5758b083ee0e01a44aa0dfee7a8a325a4cbe"
+    },
+    {
+      "path": "raw/ai_jobs_market_2025_2026.csv",
+      "bytes": 383900,
+      "sha256": "6ae7bc7bf724250cd8c977f86b620128318070a23cb0b17340e58d2321f7864e"
+    }
+  ]
+}
